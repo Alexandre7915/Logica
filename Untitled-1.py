@@ -1,6 +1,9 @@
-a = int(input("Digite um valor para a: "))
-b = int(input("Digite um valor para b: "))
+print("Bem-vindo a academia Vip X")
+print("==========================")
 
-soma = a + b
+nome = str(input("Digite o nome do cliente: "))
+idade = int(input("Digite a idade do cliente: "))
+altura = float(input("Digite a altura do cliente: "))
 
-print(f"O resultado da soma é {soma}")
+print(f"{nome} cadastrado com sucesso!")
+print(f"Com {idade} anos e {altura}m.")
